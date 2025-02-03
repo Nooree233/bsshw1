@@ -1,0 +1,14 @@
+echo $HISTFILE
+cash $HISTFILE
+cat $HISTFILE
+mkdir ~/bsshw1
+export HISTFILE=~/bsshw1/history
+echo $HISTFILE
+echo 'export HISTFILE=~/bsshw1/history' >> ~/.bashrc
+source ~/.bachrc
+source ~/.bashrc
+echo $HISTFILE
+echo "Test Command 1"
+ls -la
+pwd
+cat ~/bsshw1/history
